@@ -5,7 +5,7 @@ This evaluation script is reffered from SQuAD 2.0 (https://rajpurkar.github.io/S
 # How to run  
 Run this command line (required Python 3.6+ installed on the computer)
 ```
-python evaluate_vlsp_mrc_2021.py <path_to_ground_truth> <path_to_prediction>  
+python evaluate_vlsp_mrc_2021.py <path_to_ground_truth>.json <path_to_prediction>.json  
 ```
 
 Metrics used for this task: **F1** score and **EM** (Exact match) score
